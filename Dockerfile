@@ -16,6 +16,9 @@ FROM debian:bullseye-20220527
 
 # Install required packages.
 RUN apt-get update && apt-get install -y \
+  autoconf \
+  automake \
+  libtool \
 	gcc \
 	git \
 	libtinfo5 \
