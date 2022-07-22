@@ -19,6 +19,9 @@ RUN apt-get update && apt-get install -y \
   autoconf \
   automake \
   libtool \
+  libreadline-dev \
+  bison \
+  flex \
 	gcc \
 	git \
 	libtinfo5 \
